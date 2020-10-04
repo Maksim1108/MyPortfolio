@@ -1,0 +1,14 @@
+@media screen and (max-width: 579px) {
+    .hero__avatar {
+        margin-left: 155px;
+    }
+
+    .hero__name {
+        left: 174px;
+    }
+
+    .hero__description {
+        width: 80%;
+        margin-left: 65px;
+    }
+}

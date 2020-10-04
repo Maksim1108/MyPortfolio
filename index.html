@@ -11,7 +11,7 @@
     <header class="header">
         <div class="container">
             <nav class="header__nav">
-                <ul class="nav__menu flex">
+                <ul class="nav__menu flex wow fadeInRight">
                     <li class="nav__item"><a class="nav__link" href="">About me</a></li>
                     <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
                     <li class="nav__item"><a class="nav__link" href="#footer__contant">Contacts</a></li>
@@ -23,10 +23,10 @@
 
     <section class="hero">
         <div class="container">
-            <div class="hero__contant">
-                    <img class="hero__avatar" src="image/hero/avatar.jpg" alt="">
-                <h1 class="hero__name">Maksim Lyanko</h1>
-                <p class="hero__description">
+            <div class="hero__contant ">
+                    <img class="hero__avatar wow fadeInDown" src="image/hero/avatar.jpg" alt="">
+                <h1 class="hero__name wow fadeInLeftBig">Maksim Lyanko</h1>
+                <p class="hero__description wow fadeInLeftBig">
                     Front-end developer🍒<br>
                     Hello, my name is Maksim👋I am 18 y.o😎I live in Moscow and i'm a 3rd year student.I graduated from OGOGO programming school in Kyrgyzstan🔥My favorite programming language is JavaScript. I like to work in a team.
                 </p>
@@ -40,7 +40,7 @@
                 
                 <h2 class="skills__title">Professional skills</h2>
                 <div class="skill__statistic">
-                    <div class="skills-row">
+                    <div class="skills-row wow slideInLeft">
                         <h3>Web development technologies:</h3>
                         <div class="one-skill">
                             <p>HTML</p>
@@ -134,9 +134,9 @@
 
     <section class="footer">
         <div class="container">
-            <div id="footer__contant">
+            <div id="footer__contant wow ">
                 <h3 class="footer__title">Contacts</h3>
-                 <div class="contacts flex">
+                 <div class="contacts flex wow slideInUp">
                     <a href="mailto:randytop1337@gmail.com" target="_blank"><img class="footer__icon" src="image/social-icons/047-google-plus.svg" alt=""></a>
                     <a href="https://github.com/Maksim1108" target="_blank"><img class="footer__icon" src="image/social-icons/038-github.svg" alt=""></a>
                     <a href=""><img class="footer__icon" src="image/social-icons/029-telegram.svg" alt=""></a>
@@ -144,6 +144,11 @@
             </div>
         </div>
     </section>
+
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
 </body>
 </html>
