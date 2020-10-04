@@ -1,0 +1,20 @@
+.footer {
+    min-height: 250px;
+    margin-top: 50px;
+}
+
+.footer__title {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contacts {
+    padding-top: 50px;
+    justify-content: space-around;
+}
+
+.footer__icon {
+    width: 30px;
+}
+

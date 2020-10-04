@@ -1,0 +1,38 @@
+.hero {
+    margin-top: 25px;
+    background: url(../../image/hero/background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.hero__contant {
+    position: relative;
+    height: 600px;
+}
+
+.hero__avatar {
+    margin: 55px 0 0 80px;
+    width: 240px;
+    height: 240px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.hero__name {
+    position: absolute;
+    left: 100px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hero__description {
+    margin: 40px 0 0 20px;
+    padding: 20px 0 20px 0;
+    background:#fff;
+    color: #000;
+    font-size:16px;
+    line-height: 24px;
+    text-decoration: underline;
+    width: 35%;
+    text-align: center
+}
+

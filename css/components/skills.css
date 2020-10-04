@@ -1,0 +1,46 @@
+.skills__title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.skill__statistic {
+    width: 50%;
+}
+
+.section__content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.skills-row h3 {
+    margin: 50px 0px 20px 0px;
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.one-skill p{
+    margin-top:35px;
+}
+
+.progress-bar {
+    margin-bottom: 20px;
+    height: 10px;
+}
+
+.progress-cell {
+    float: left;
+    height: 100%;
+    width:19.5%;
+    background-color: #aeb6c2;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+    margin-right: 0.5%;
+}
+
+.progress-fill-1>.progress-cell:nth-child(-n+1),
+.progress-fill-2>.progress-cell:nth-child(-n+2),
+.progress-fill-3>.progress-cell:nth-child(-n+3),
+.progress-fill-4>.progress-cell:nth-child(-n+4),
+.progress-fill-5>.progress-cell:nth-child(-n+5){
+    background-color: #5a8ed6;
+}
